@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Proj2</title>
-  <!-- Import Vega & Vega-Lite -->
+  <title>Visualization-Project2</title>
+  <!-- Import Vega,Vega-Lite and vega-embed -->
   <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
   <script src="https://cdn.jsdelivr.net/npm/vega-lite@4"></script>
   <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
@@ -14,13 +14,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-
   <!-- Google font -->
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;500&display=swap" rel="stylesheet">
   
-
+  <link rel="stylesheet" href="./css/style.css">
   <!-- custom CSS -->
-  <style>
+  <!-- <style>
     *{
       font-family: 'Roboto', sans-serif;
     }
@@ -85,8 +84,7 @@
     h3.c{
       font-weight: 1000px;
     }    
-
-  </style>
+  </style> -->
 </head>
 
 <body>
@@ -178,7 +176,7 @@
       </div>
     </div>
     <div class="pure-u-5-8">
-      <div id="vis4" class="vis-container"></div>
+      <div id="vis2" class="vis-container"></div>
     </div>
   </div>
 
@@ -221,7 +219,7 @@
     </div>
     <div class="pure-u-5-8">
       <h3 style="text-align:center">Sankey Diagram showing Sources of Electricity Production (2014)</h3>
-      <div id="vis6" class="vis-container"></div>
+      <div id="vis3" class="vis-container"></div>
     </div>
   </div>
 
@@ -267,7 +265,7 @@
     </div>
     <div class="pure-u-5-8">
       <h3 style="text-align:center">Investment in Renewable Energy in US dollars By Region</h3>
-      <div id="vis7" class="vis-container"></div>
+      <div id="vis4" class="vis-container"></div>
     </div>
   </div>
 
@@ -315,7 +313,7 @@
         </div>
       </div>
       <div class="pure-u-5-8">
-        <div id="vis2" class="vis-container" class="description description-right"></div>
+        <div id="vis5" class="vis-container" class="description description-right"></div>
       </div>
   </div>
 
@@ -364,7 +362,7 @@
         </div>
       </div>
       <div class="pure-u-1-2">
-        <div id="vis3" class="vis-container"></div>
+        <div id="vis6" class="vis-container"></div>
       </div>
     </div>
     
@@ -411,7 +409,7 @@
         
       </div>
       <div class="pure-u-5-8">
-        <div id="vis5" class="vis-container"></div>
+        <div id="vis7" class="vis-container"></div>
       </div>
     </div>
 
@@ -440,7 +438,7 @@
   var specVis1= "./js/histogram.json";
   var specVis2= "./js/bubbleChart.json";
   var specVis3= "./js/scatterplot.json"; 
-  var specVis4= "./js/symbol_map.json";
+  var specVis4= "./js/s ymbol_map.json";
   var specVis5= "./js/boxplot.json";
 
   vegaEmbed('#vis1', specVis1, {"actions": false}).then(function(result) {
