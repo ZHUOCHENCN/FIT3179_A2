@@ -1,8 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
-  "width": 600,
+  "width": 470,
   "height": 400,
-  "title": "Energy Consumption vs GDP per Capita",
   "data": {
     "url": "https://raw.githubusercontent.com/ZHUOCHENCN/Project-2/main/data/7_bubble.csv"
   },
@@ -80,20 +79,7 @@
  "legend": {"format": ".1s"}
       
     }
-  }},
-    {
-        "mark": {
-              "type": "text",
-              "align": "right",
-              "fontSize": 12,
-              "fontStyle": "italic",
-              "text": "For Australia, a 1% increase in GDP growth is associated with 0.5% energy growth.",
-              "dx":155,
-              "dy":-175
-              }
-      }
-
-
+  }}
 
   ],
 
