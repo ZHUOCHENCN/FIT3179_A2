@@ -85,6 +85,9 @@
 
   
   "config": {
-    "background":""
-  }
+    "background":"",
+"view": {
+   "stroke": "transparent"
+}
+}
 }
