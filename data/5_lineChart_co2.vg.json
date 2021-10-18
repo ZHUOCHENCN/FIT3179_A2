@@ -1,6 +1,6 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
-    "width": 350,
+    "width": 700,
     "height": 400,
     "data": {
       "url": "https://raw.githubusercontent.com/ZHUOCHENCN/Project-2/main/data/5_co2.csv"
