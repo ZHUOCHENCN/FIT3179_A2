@@ -1,78 +1,38 @@
 
-   body{
-     background-color:rgba(241, 229, 188, 0.199);
-   }
-
-   .page{
-     width: 1100px;    
-     background-color: white;   
-     margin: auto;
-  }
-
-  h1{
-    text-align: center;
-    font-size: 60px;
-    color:  black;
-    font-weight: 1000;
-  }
-  
-  .sub-title{
-    height: 80px;
-    background-color: #f3c77463;
-    text-align: center;
-    font-size: 20px;
-  }
-
-  .graph-text{
-    margin-bottom: 25px;
-  }
-
-  .pure-a{
-    margin-bottom: 25px;
-    background-color: #ffb3b3;
+ body{
+   background-color:rgba(241, 229, 188, 0.199);
+ }
+ .page{
+   width: 1300px;    
+   background-color: white;   
+   margin: auto;
 }
 
-  .vis-container{
-    width: 100vw;
-  }
-  .description h1{
-    margin-top:0px;
-  }
-  .description h2{
-    color: #737373;
-  }
-  .description-right {
-    padding-left: 20px;
-  }
-  .description-left{
-    padding-right: 10px;
-  }
-  .pure-g{
+h1{
+  text-align: center;
+  font-size: 60px;
+  color:  black;
+  font-weight: 1000;
+}
+ul{
+  font-family: "Roboto";
+  font-size: 20px;
+  font-weight: 100;
+  color: #737373;
+}
+.vis-container{
+  width: 100%;
+}
+
+.text{
+  padding-right: 20px;
+}
+
+.pure-a{
     margin-bottom: 25px;
-  }
-  p{
-   font-size: 18px;
-   font-weight: 300;
-  }
-  .small-font{
-    font-size: 13px;
-    font-weight: 300;
-  } 
+    background-color: #f3c7743b;
+}
+.pure-g{
+  margin-bottom: 25px;
+}
 
- 
-
-
-
-  h2.b {
-    font-size: 33px;
-  }
-  h2.c{
-    color: 8b0000;
-    font-weight: 300;
-  } 
-  h2.d {
-    color: #b30000;
-  }
-  h3.c{
-    font-weight: 1000px;
-  }   
