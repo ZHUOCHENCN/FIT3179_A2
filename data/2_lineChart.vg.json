@@ -4,7 +4,7 @@
       "url": "https://raw.githubusercontent.com/ZHUOCHENCN/Project-2/main/data/2_world_oil_energy.csv"
     },
     "width": 600,
-    "height": 500,
+    "height": 400,
     "encoding": {
       "x": {"field": "Year", 
       "type": "temporal", "axis":  {"grid": false, "ticks": false}}

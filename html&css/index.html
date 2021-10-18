@@ -8,113 +8,46 @@
   <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
 
   <!-- Import pure.css -->
-
-  <!-- 修改 link  #################-->
-  <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css" integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ" crossorigin="anonymous">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
+  <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.6/build/pure-min.css" integrity="sha384-Uu6IeWbM+gzNVXJcM9XV3SohHtmWE+3VGi496jvgX1jyvDTXfdK+rfZc8C1Aehk5" crossorigin="anonymous">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- Google font -->
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;500&display=swap" rel="stylesheet">
-  
-  <!-- <link rel="stylesheet" href="./css/style.css"> -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+
+  <!-- import CSS -->
   <link rel="stylesheet" href="style.css">
-  <!-- custom CSS -->
-  <!-- <style>
-    *{
-      font-family: 'Roboto', sans-serif;
-    }
-    h1{
-      font-weight: 400;
-    }
-     body{
-       background-color:lightgray;
-     }
-     .page{
-       width: 1300px;    
-       background-color: white;   
-       margin: auto;
-       padding: 50px;
-       padding-top: 35px;
-    }
-    .vis-container{
-      width: 100%;
-    }
-    .description h1{
-      margin-top:0px;
-    }
-    .description h2{
-      color: #737373;
-    }
-    .description-right {
-      padding-left: 20px;
-    }
-    .description-left{
-      padding-right: 20px;
-    }
-    .pure-g{
-      margin-bottom: 25px;
-    }
-    p{
-     font-size: 18px;
-     font-weight: 300;
-    }
-    .small-font{
-      font-size: 13px;
-      font-weight: 300;
-    } 
-    .pure-a{
-        margin-bottom: 25px;
-        background-color: #ffb3b3;
-    }
-    h1.a {
-      font-size: 70px;
-      color:  black;
-      font-weight: 1000;
-    }
-    h2.b {
-      font-size: 33px;
-    }
-    h2.c{
-      color: 8b0000;
-      font-weight: 300;
-    } 
-    h2.d {
-      color: #b30000;
-    }
-    h3.c{
-      font-weight: 1000px;
-    }    
-  </style> -->
+
 </head>
 
+
+
 <body>
+
+
  <div class="page" >
 
-  <!-- MAIN TITLE -->
+
   <div>
-    <div class="pure-u-1-1">
-      <h1 class="a" style="text-align:center">Energy Consumption Around The Globe.</h1>
-      <h3 style="text-align:center">To be more energy efficient, reducing the amount of energy we consume is an essential step. Consuming less oil decreases the need for our energy supplies, such as fossil fuels, which is critical for a safer and brighter future.</h3>
-      <p style="text-align:center" class="c">This visualisation is based on the dataset from "Our World In Data"</p>
-      <br>
-        <br>
-        <br>
+    <div class="pure-u-1">
+      <h1>Global Energy Consumption</h1>
     </div>
   </div>
 
   
 
 
-  <!-- 1. ENERGY CONSUMPTION -->
-  <div class=pure-a>
+  <!--sub title-->
+  <div class="sub-title">
     <div class="pure-u-1-1">
-      <h2 style="text-align:center" class="b">Energy Consumption Per Capita (KWh)</h2>
+      <h2>Energy Consumption Per Capita</h2>
   
     </div>
   </div>
-  <!-- end pure grid group -->
+
   
+
   <!-- pure grid group -->
   <div class="pure-g">
     <div class="pure-u-1-4">
@@ -237,9 +170,6 @@
 
 
 
-
-
-
    <!-- 7. AREA CHART -->
     <!-- pure grid group -->
     <div class="pure-a">
@@ -269,12 +199,6 @@
       <div id="vis4" class="vis-container"></div>
     </div>
   </div>
-
-
-
-
-
-
 
 
 
@@ -327,17 +251,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
     <!-- 3. GLOBAL ENERGY TRADE -->
     <!-- pure grid group -->
     <div class="pure-a">
@@ -367,14 +280,6 @@
       </div>
     </div>
     
-
-
-
-
-
-
-
-
 
 
 
@@ -417,7 +322,27 @@
 
 
 
+
+
+
+
+
+
+    
+
+
+
+
   </div> <!-- end page -->
+
+
+
+
+
+
+
+
+
 
   <!-- 案例1 -->
   <!-- <body>
@@ -488,6 +413,10 @@
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
   }).catch(console.error);
 </script>
+
+
+
+
 </body>
 </html>
 
