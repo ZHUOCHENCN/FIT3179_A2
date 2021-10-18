@@ -59,42 +59,42 @@
             "title": "Year"
           },
           {
-            "field": "Oil Consumption",
+            "field": "Oil Consumption - TWh",
             "type": "quantitative",
             "format": ".0f"
           },
           {
-            "field": "Coal Consumption",
+            "field": "Coal Consumption - TWh",
             "type": "quantitative",
             "format": ".0f"
           },
           {
-            "field": "Gas Consumption",
+            "field": "Gas Consumption - TWh",
             "type": "quantitative",
             "format": ".0f"
           },
           {
-            "field": "Hydro Generation",
+            "field": "Hydro Generation - TWh",
             "type": "quantitative",
             "format": ".0f"
           },
           {
-            "field": "Nuclear Generation",
+            "field": "Nuclear Generation - TWh",
             "type": "quantitative",
             "format": ".0f"
           },
           {
-            "field": "Geo Biomass Other",
+            "field": "Geo Biomass Other - TWh",
             "type": "quantitative",
             "format": ".0f"
           },
           {
-            "field": "Wind Generation",
+            "field": "Wind Generation -TWh",
             "type": "quantitative",
             "format": ".0f"
           },
           {
-            "field": "Solar Generation",
+            "field": "Solar Generation - TWh",
             "type": "quantitative",
             "format": ".0f"
           }
