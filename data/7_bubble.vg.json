@@ -3,7 +3,7 @@
   "width": 600,
   "height": 400,
   "data": {
-    "url": "https://raw.githubusercontent.com/ZHUOCHENCN/Project-2/main/data/7_bubble.csv"
+    "url": "https://raw.githubusercontent.com/ZHUOCHENCN/FIT3179_A2/main/data/7_bubble.csv"
   },
   "params": [ {
     "name": "Year_Above",
