@@ -28,7 +28,7 @@
       "scale": {
         "type": "threshold", 
         "domain":[2000, 25000, 50000,100000],
-        "range":["#ffe6e6","#ff9999", "#ff4d4d", "#cc0000", "#800000"]
+        "range":["#c68c53","#ac7339", "#86592d", "#604020", "#392613"]
         },
       "title": "Energy Use (KWh)"
     },

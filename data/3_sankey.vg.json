@@ -279,7 +279,7 @@
         "name": "color_outcome",
         "type": "ordinal",
         "domain": ["Australia", "China", "India", "Japan", "United States"],
-        "range": ["#e6d4a3", "#7a1f1a", "#ed8b85", "#e6550d", "#c90c0c"]
+        "range": ["#b3b3cc", "#7a1f1a", "#ed8b85", "#e6550d", "#c90c0c"]
       }
     ],
     "axes": [
