@@ -13,7 +13,7 @@
     "min": 1990,
     "max": 2013,
     "step": 1,
-    "name": "Show data from: "
+    "name": "Year: "
     }
  }
 ],
